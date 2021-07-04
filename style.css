@@ -28,11 +28,12 @@ h3{
     text-decoration: none;
     background-color: orange;
     padding: 10px 40px;
-    background-image: linear-gradient(to bottom right, rgb(195, 0, 255), rgb(8, 94, 255));
+    background-image: linear-gradient(to bottom right, rgb(0, 4, 255), rgb(206, 8, 255));
     color: white;
     font-weight: 800;
     border-radius: 5px;
 }
+
 .top-banner{
     background-image: url(../web-portfolio/images/top-banner.png);
     background-repeat: no-repeat;
@@ -74,4 +75,9 @@ footer p{
 a {
     text-decoration: none;
     transition: all .5s ease-in-out;
+}
+
+.link-button:hover{
+    background-image: linear-gradient(to top left,  rgb(0, 4, 255),rgb(206, 8, 255));
+    
 }
