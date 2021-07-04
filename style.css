@@ -71,3 +71,7 @@ h3{
 footer p{
     text-align: center;
 }
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
