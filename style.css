@@ -12,7 +12,7 @@ h1{
 h3{
     font-size: 25px;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -42,4 +42,31 @@ section{
     background-image: url(../web-portfolio/images/mini.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 50px;
+    border-radius: 5px;
+}
+.experience-area{
+    background-image: url(../web-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-exp{
+    border-left: 8px solid;
+    border-image:linear-gradient(rgb(13, 100, 2),rgb(251, 255, 0));
+    border-image-slice: 1;
+}
+#web-dev-exp2{
+    border-left: 8px solid;
+    border-image:linear-gradient(rgb(0, 26, 255),rgb(255, 0, 0));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
